@@ -20,6 +20,10 @@ module.exports = {
    * Networks
    *   If you don't specify one truffle will spin up a development blockchain for you on port 9545 
    *   when you run develop or test for example $ truffle test --network <network-name> 
+   * @author Though it'll always use the first account to deploy, force the address in the config just in case using the 'from' param
+   * 
+   * List of BSC RPC endpoints is available at the following URL. The 1st and 2nd are generally SLOW, so use a different one!
+   * https://docs.binance.org/smart-chain/developer/rpc.html
    */
 
   networks: {
