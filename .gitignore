@@ -1,0 +1,13 @@
+#Ignore modules and libraries handled by package manager
+node_modules
+package-lock.json
+
+#Ignore secrets
+.secrets
+
+#IDE Specific Exclusions
+.vscode
+soljson-*
+
+#Ignore Builds and other compiled versions
+build
